@@ -4,7 +4,7 @@ import Content from '../containers/content'
 
 export default function Home() {
   return (
-    <div className='w-full bg-fixed p-5 bg-cover' style={{ backgroundImage: `url("img/bg3.jpg")` }}>
+    <div className='w-full min-h-screen bg-fixed p-5 bg-cover' style={{ backgroundImage: `url("img/bg3.jpg")`, minWidth: "1200px" }}>
       <Head>
         <title>Toko Emas</title>
         <meta name="description" content="Software Toko Emas" />

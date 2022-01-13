@@ -7,7 +7,7 @@ function Content() {
         <div className="w-10/12 bg-transparent rounded-xl">
             <TopBar />
             <main className="flex-1 overflow-x-hidden overflow-y-auto">
-                <div className="container mx-auto px-6 pb-8">
+                <div className="mx-auto px-6 pb-8">
                     <div className="mt-4">
                         <div className="grid grid-cols-3 gap-4">
                             <div className="rounded-lg">
@@ -54,7 +54,7 @@ function Content() {
                     </div>
 
                     <div className="flex flex-col mt-8">
-                        <div className="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                        <div className="py-2 overflow-x-auto">
                             <div
                                 className="align-middle inline-block min-w-full overflow-hidden sm:rounded-lg ">
                                 <table className="min-w-full">
