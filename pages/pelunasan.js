@@ -379,7 +379,7 @@ function Pelunasan() {
             <div className='input-order border p-3 bg-white'>
                 <div className='grid grid-cols-2 gap-3'>
                     <input name="catatan" requiemerald className='border w-full h-10 p-2' placeholder='Nomor Transaksi' />
-                    <input type="number" name="kembali" type="number" min={1} className='border w-full h-10 p-2' placeholder='Sisa Pelunasan' />
+                    <input name="kembali" type="number" min={1} className='border w-full h-10 p-2' placeholder='Sisa Pelunasan' />
                 </div>
                 <div className='flex justify-between items-center text-sm mt-5 mb-1'>
                     <span>Pembayaran</span>

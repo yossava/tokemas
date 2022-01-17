@@ -24,7 +24,7 @@ function PaymentRow(props) {
             <Select onChange={(e) => handleSelectChange({ ...e, name: "payment" })} id="payment-type" instanceId="payment-type" options={options} />
 
             <input onChange={(e) => handleChange(e)} type="number" name="nominal" className='border w-full h-10 p-2' placeholder='Nominal' />
-            <input onChange={(e) => handleChange(e)} type="number" name="kembali" type="number" min={1} className='border w-full h-10 p-2' placeholder='Kembalian' />
+            <input onChange={(e) => handleChange(e)} type="number" name="kembali" min={1} className='border w-full h-10 p-2' placeholder='Kembalian' />
             <input onChange={(e) => handleChange(e)} name="catatan" required className='border w-full h-10 p-2' placeholder='Catatan' />
         </div>
     )
