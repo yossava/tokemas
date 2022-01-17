@@ -214,7 +214,7 @@ function Pelunasan() {
                     }
                 });
             toast.success("Customer berhasil ditambahkan", { position: toast.POSITION.TOP_CENTER });
-            //getCust(cookies.jwt);
+            ////getCust(cookies.jwt);
             setShowAdd(false);
         } catch (err) {
             console.log(err);
